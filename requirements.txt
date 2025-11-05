@@ -1,13 +1,3 @@
 fastapi
-uvicorn[standard]
-rapidfuzz
-pydantic
-python-multipart
 uvicorn
-jinja2
-aiofiles
-# optional (only if you want to use huggingface generator)
-transformers
-torch    # optional and only if you will use generator on CPU; can be heavy
-sentence-transformers  # optional for embedding approach
-faiss-cpu  # optional if using vector search (not required)
+rapidfuzz
